@@ -1,0 +1,75 @@
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 992px) {
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  border-radius: 8px;
+  margin: 14px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 40%;
+    margin: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 30%;
+    margin: 20px;
+  }
+}
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expense-container {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.money-details-image {
+  height: 70px;
+  width: 70px;
+  margin: 10px 15px 10px 25px;
+}
+@media screen and (min-width: 768px) {
+  .money-details-image {
+    height: 70px;
+    width: 70px;
+  }
+}
+.type-money-container {
+  line-height: 0.5;
+}
+.type {
+  color: #7e858e;
+  font-weight: 600;
+}
+.money {
+  color: #7e858e;
+  font-weight: 600;
+}
